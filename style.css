@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-attachment: scroll;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:rgb(196, 219, 155);
+  }
+
+  header {
+    background: #7fbf7f;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    } 
+
+    header nav a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  section {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .tips-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .tip-card {
+    background: #d4f1d4;
+    padding: 1em;
+    flex: 1 1 calc(50% - 1em);
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #7fbf7f;
+    color: #fff;
+   
+  }
+
+
+
+  .Physicalhealth {
+    width: 150px;
+    height: 150px;
+
+    
+  }
+  .dimensions-of-wellbeing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.Physicalhealth {
+    max-width: 300%; /* Adjust size as needed */
+    height: 150px;
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+
+
+}
+
+h2 {
+  text-align: center;
+}
+.Mentalhealth {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+  
+}
+.Socialhealth {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+  
+}
+.Environmentalhealth {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+  
+}
+.Occupationalhealth {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+  
+}
+.Spiritualhealth {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+  
+}
+.Healthandwellbeingconnected {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 50%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* General Table Styling */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: center ;
+  color: #333;
+  table-layout:fixed;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  border-style: inherit;
+  border-width: 0cap;
+  
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/* Hover effect on rows */
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  margin: 0% 1em;
+}
+.custom-list {
+  list-style-type: square; /* Options: disc, circle, square */
+  padding-left: 20px; /* Adds space between bullets and the text */
+}
+.stress {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 50%;
+  margin: 0 165px;
+  text-align: center;
+}
+.Connectwithothers {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Bephysicallyactive {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.learnnewskills {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Givetoothers {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Payattentiontothepresent {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Getregularcheckups {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Improvesleepquality {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Eatnutritiousfood  {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Spendingtimeoutside  {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.Practicegratitude  {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+.whyshouldyouprioritizehealthandwellbeing {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.navbar-logo {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+
+}
+
+.resources {
+  max-width: 300%; /* Adjust size as needed */
+  height: 200px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+
+
